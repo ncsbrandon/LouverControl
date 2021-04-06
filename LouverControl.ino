@@ -1,12 +1,12 @@
 #include <Servo.h>
 
+const int minA = 0;
+const int maxA = 90;
+const int stepDelay = 20;
+const int midPoint = 512;
+int posA = 0;
 Servo myservo1;
 Servo myservo2;
-int posA = 0;
-int minA = 0;
-int maxA = 90;
-int stepDelay = 20;
-int midPoint = 512;
 
 void setup() {
 }
